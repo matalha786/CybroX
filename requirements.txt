@@ -1,0 +1,33 @@
+# Core Dependencies
+scapy==2.4.5          # For network traffic sniffing and packet capture
+tensorflow==2.13.0    # For AI-based malware detection and advanced analysis
+fpdf==1.7.2           # For PDF report generation
+loguru==0.6.0         # For enhanced logging (optional, but useful for advanced logging)
+
+# Core System Utilities (optional but highly recommended)
+psutil==5.9.0         # For system monitoring (useful for forensic workflows)
+paramiko==2.11.0      # For SSH (if automating remote acquisition)
+requests==2.31.0      # For making HTTP requests in case of web-based integration
+
+# Optional Security Tools (useful for forensic investigations)
+pycryptodome==3.15.0  # For cryptographic functions and encryption
+pyopenssl==23.0.0     # For SSL/TLS if needed for secure communication
+
+# For Data Manipulation (optional but useful for forensic data processing)
+pandas==1.4.2         # For data analysis and processing
+numpy==1.23.1         # Required by TensorFlow and useful for advanced data processing
+
+# If you plan to use the Django framework for expanding web-based capabilities
+django==4.2           # Django web framework for forensic web integration (optional)
+djangorestframework==3.14.0  # Django REST Framework for API-based workflows (optional)
+
+# For Development and Debugging
+ipython==8.7.0        # Enhanced Python shell for testing and debugging
+pylint==2.15.0        # Code linting to ensure code quality and reliability
+
+# Python PDF Libraries for Forensic Report Generation
+reportlab==3.6.12     # An alternative PDF generation library (optional, in case you prefer ReportLab over FPDF)
+
+# Cloud and Workflow Integration (optional, if integrating with cloud or SIEM systems)
+boto3==1.24.0         # AWS SDK for Python, for cloud integration
+elasticsearch==8.4.0  # For SIEM integration using Elasticsearch (if applicable)
