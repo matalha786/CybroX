@@ -21,20 +21,17 @@ CybroX is a comprehensive command-line tool designed to streamline the process o
 ## Requirements
 
 Ensure you have the following dependencies installed before running the tool:
-
-- Python 3.x
-- Scapy
-- TensorFlow
-- FPDF
-- Cryptography
-
 You can install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
 ```
-
 ### Dependencies:
+- Python 3.x
+- Scapy
+- TensorFlow
+- FPDF
+- Cryptography
 - `argparse` - Command-line argument parsing.
 - `scapy` - Packet manipulation tool used for network traffic capture.
 - `tensorflow` - AI-based malware detection.
