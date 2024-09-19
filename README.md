@@ -1,7 +1,7 @@
 # CybroX
 CybroX (a combination of "Cyber" and "Brooks," implying a comprehensive and in-depth analysis of digital evidence) 
 Tagline: "Uncover the truth, reveal the evidence"
-Here's a sample `README.md` file for your code, written in GitHub format:
+
 
 
 # CybroX - Digital Forensics Command Line Interface
